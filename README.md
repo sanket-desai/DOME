@@ -10,19 +10,19 @@ DOME is developed using python3 and R shiny package. The database is provided as
 
 ### Pre-requisites required for installation of DOME
 
-Users are required to download DOME toolkit package from the [webpage](http://www.actrec.gov.in/pi-webpages/AmitDutt/DOME/DOME.html). Approximately 2 GB of system space is required to store the database toolkit package. The downloaded package needs to be extracted using "tar" or "winrar" extractor, depending on the operating system used. The package contains the following contents:
+Users are required to download DOME toolkit package from the [webpage](http://www.actrec.gov.in/pi-webpages/AmitDutt/DOME/DOME.html). Approximately 2 GB of system space is required to store the package. The downloaded package needs to be extracted using "tar" or "winrar" extractor, depending on the operating system used. The package contains the following contents:
 
 ```terminal
 dome (root folder)
     ├── Manual (User Manual)
     ├── app.R (Rshiny App)
-    ├── data
     ├── input_dome.txt (example: input file)
     ├── output
     ├── domeenv.yml
     └── src (DOME algorithm and accesory scripts)
 
 ```
+DOME requires reference databases, which need to be downloaded clicking the following link: [DOME reference databases](tinyurl.com/domedb). Click on "Download" (select standard download), the file is 1.44 Gb in size. Place the downloaded "data.zip" in the root folder (dome) and unzip using 'unzip' command or any zip file extractor. DOME is now ready for installation.
 
 **System Prerequisites:**
 
