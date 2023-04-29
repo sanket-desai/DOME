@@ -19,7 +19,7 @@ dome (root folder)
     ├── input_dome.txt (example: input file)
     ├── output
     ├── domeenv.yml
-    └── src (DOME algorithm and accesory scripts)
+    └── scripts (DOME algorithm and accesory scripts)
 
 ```
 DOME requires reference databases, which need to be downloaded clicking the following link: [DOME reference databases](tinyurl.com/domedb). Click on "Download" (select standard download), the file is 1.44 Gb in size. Place the downloaded "data.zip" in the root folder (dome) and unzip using 'unzip' command or any zip file extractor. DOME is now ready for installation.
