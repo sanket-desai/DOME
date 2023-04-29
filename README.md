@@ -47,9 +47,9 @@ This installs all the dependencies and tools required to run DOME.
 
 For running any script pertaining to DOME, make sure that the domeenv Conda environment is activated. More information about Conda environments can be found [here](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
 
-### Running DOME toolkit
+### Running DOME-GUI
 
-The required scripts to run DOME toolkit are placed in the “src” directory.
+The required scripts to run DOME are placed in the “src” directory.
 
 **To load the R Shiny based GUI or via web-browser use the following command: **
 
