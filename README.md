@@ -22,7 +22,7 @@ dome (root folder)
     └── scripts (DOME algorithm and accesory scripts)
 
 ```
-DOME requires reference databases, which need to be downloaded clicking the following link: [DOME reference databases](tinyurl.com/domedb). Click on "Download" (select standard download), the file is 1.44 Gb in size. Place the downloaded "data.zip" in the root folder (dome) and unzip using 'unzip' command or any zip file extractor. DOME is now ready for installation.
+DOME requires reference databases, which need to be downloaded clicking the following link: [DOME reference databases](https://www.tinyurl.com/domedb). Click on "Download" (select standard download), the file is 1.44 Gb in size. Place the downloaded "data.zip" in the root folder (dome) and unzip using 'unzip' command or any zip file extractor. DOME is now ready for installation.
 
 **System Prerequisites:**
 
