@@ -12,15 +12,15 @@ DOME is developed using python3 and R shiny package. The database is provided as
 
 ### Pre-requisites required for installation of DOME
 
-Users are required to download DOME toolkit package from the [webpage](http://www.actrec.gov.in/pi-webpages/AmitDutt/DOME/DOME.html). Approximately 2 GB of system space is required to store the package. The downloaded package needs to be extracted using "tar" or "winrar" extractor, depending on the operating system used. The package contains the following contents:
+Users are required to download DOME package from the [webpage](http://www.actrec.gov.in/pi-webpages/AmitDutt/DOME/DOME.html). Approximately 2 GB of system space is required to store the package. The downloaded package needs to be extracted using "unzip" or "winrar" extractor, depending on the operating system used. The package contains the following contents:
 
 ```terminal
-dome (root folder)
+DOME-main (root folder)
     ├── Manual (User Manual)
     ├── app.R (Rshiny App)
     ├── input_dome.txt (example: input file)
-    ├── output
-    ├── domeenv.yml
+    ├── output (test output)
+    ├── domeenv.yml (conda environment)
     └── scripts (DOME algorithm and accesory scripts)
 
 ```
@@ -34,13 +34,13 @@ The installation of the required packages is performed through Anaconda/Minicond
 
 ### Installation
 
-DOME can be downloaded from this [webpage](http://www.actrec.gov.in/pi-webpages/AmitDutt/DOME/DOME.html). Untar the downloaded tar.gz file using the following command:
+DOME can be downloaded from this [webpage](http://www.actrec.gov.in/pi-webpages/AmitDutt/DOME/DOME.html). Untar the downloaded .zip file using the following command:
 ```bash
-tar -xvzf dome_v0.2.tar.gz
-cd dome
+unzip dome_v02.zip
+cd DOME-main
 ```
-Make sure that the complete 'untarred' data directory is present in the dome home directory before proceeding with the further installation and running dome.
-In the home directory of dome (dome), run the following command:
+Make sure that the complete 'unzipped' data directory is present in the dome home directory before proceeding with the further installation and running dome.
+In the home directory of DOME (DOME-main), run the following command:
 
 ```bash
 conda env create -f domeenv.yml
@@ -58,7 +58,7 @@ The required scripts to run DOME are placed in the “script” directory.
 
 ```bash
 $ conda activate domeenv
-$ cd <dome root>/scripts
+$ cd DOME-main/scripts
 $ python3 metaaccesor.py <input_csv>
 ```
 Format of the above mentioned "input_csv" should be as shown below. The CSV format file should contain 3 columns (column 1 - uniprot entry name of the protein; column 2 - amino acid position; column 3 - ALTERED amino acid) and may contain multiple rows (user defined). An example of the file contents is shown below :
