@@ -1,6 +1,6 @@
 # DOmain Mutation Estimator (DOME) - user manual
 
-DOME, developed by [Dutt lab](http://www.actrec.gov.in/pi-webpages/AmitDutt/dutt_index.html), [ACTREC-TMC](https://actrec.gov.in/))
+DOME, developed by [Dutt lab](http://www.actrec.gov.in/pi-webpages/AmitDutt/dutt_index.html), [ACTREC-TMC](https://actrec.gov.in/)
 
 GUI code is contributed by [Rohit Mishra](https://twitter.com/rkmishra3893?s=20).
 
