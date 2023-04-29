@@ -1,4 +1,3 @@
-#entryname,pos,altaa
 EGFR_HUMAN,858,R
 EGFR_HUMAN,856
 EGFR_HUMAN,829

@@ -64,8 +64,9 @@ Format of the above mentioned "input_csv" should be as shown below. The CSV form
 
 EGFR_HUMAN,858,R
 ERBB4_HUMAN,931,Y
-.
-.
+EGFR_HUMAN,829
+TF7L2_HUMAN,365
+EGFR_HUMAN,790,M
 
 ```
 
