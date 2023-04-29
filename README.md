@@ -49,7 +49,25 @@ For running any script pertaining to DOME, make sure that the domeenv Conda envi
 
 ### Running DOME-GUI
 
-The required scripts to run DOME are placed in the “src” directory.
+The required scripts to run DOME are placed in the “script” directory. 
+
+**To run DOME as a command line program, use the following commane:**
+**In Linux terminal:**
+
+```bash
+$ conda activate domeenv
+$ cd <dome root>/scripts
+$ python3 metaaccesor.py <input_csv>
+```
+Format of the above mentioned "input_csv" should be as shown below. The CSV format file should contain 3 columns (column 1 - uniprot entry name of the protein; column 2 - amino acid position; column 3 - ALTERED amino acid) and may contain multiple rows (user defined). An example of the file contents is shown below :
+```
+
+EGFR_HUMAN,858,R
+ERBB4_HUMAN,931,Y
+.
+.
+
+```
 
 **To load the R Shiny based GUI or via web-browser use the following command: **
 
@@ -68,9 +86,7 @@ $ R -e "shiny::runApp('app.R', launch.browser = TRUE)"
 > "Path/to/R.exe" -e "shiny::runApp("app.R", launch.browser = TRUE)"
 ```
 
-
-
-### Guide to use DOME toolkit
+### Guide to use DOME
 
 Once users executes the above commands DOME toolkit GUI appears.
 

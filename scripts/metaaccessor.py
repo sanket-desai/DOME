@@ -816,27 +816,6 @@ def main():
                 entry_queries[si[0]]=temp
             else:
                 entry_queries[si[0]]=[ qsi ]
-    '''
-    entry_queries={} # map {entry_name -> quries list}
-    q1=Query("EGFR_HUMAN", 858, 'R')
-    q2=Query("EGFR_HUMAN", 856)
-    q3=Query("EGFR_HUMAN", 229)
-    q4=Query("EGFR_HUMAN", 219)
-    q5=Query("TF7L2_HUMAN", 365)
-    #q3=Query("UFO_HUMAN", 690)
-    #read queries from a file
-    queries=[]
-    queries2=[]
-    queries.append(q1)
-    queries.append(q2)
-    queries.append(q3)
-    queries.append(q4)
-    queries2.append(q5)
-    entry_queries["EGFR_HUMAN"]=queries
-    entry_queries["TF7L2_HUMAN"]=queries2
-    print(entry_queries)
-    #entry_queries["UFO_HUMAN"]=queries2
-    '''
     refpath="data/domerefdata/final/"
     oheader=["tier","protein","mutpos","refaa","altaa", "domain", "statscore","analogtomut", "caddscore", "cosmiccount", "colcoscount", "colnumofresidues" , "clinvarsig", "uniprotsite", "phosphosite", "uniprotmutagen" , "hotspot3dann", "3d_dom_close", "3d_statsig_close" , "3d_analog_close","3d_uniprotsite_close", "3d_pspsite_close", "3d_hotspot_close", "interfaceposition", "contextscore", "neutralityscore","entropyscore", "alterfrequencyscore","biochemcontext","meanscore"]
     refdbobj=ReferenceDatabases(refpath)
