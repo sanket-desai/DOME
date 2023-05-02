@@ -816,7 +816,7 @@ def main():
                 entry_queries[si[0]]=temp
             else:
                 entry_queries[si[0]]=[ qsi ]
-    refpath="data/domerefdata/final/"
+    refpath="../data/domerefdata/final/"
     oheader=["tier","protein","mutpos","refaa","altaa", "domain", "statscore","analogtomut", "caddscore", "cosmiccount", "colcoscount", "colnumofresidues" , "clinvarsig", "uniprotsite", "phosphosite", "uniprotmutagen" , "hotspot3dann", "3d_dom_close", "3d_statsig_close" , "3d_analog_close","3d_uniprotsite_close", "3d_pspsite_close", "3d_hotspot_close", "interfaceposition", "contextscore", "neutralityscore","entropyscore", "alterfrequencyscore","biochemcontext","meanscore"]
     refdbobj=ReferenceDatabases(refpath)
     domprotentropydb=DomainProteomeEntropyDb(refdbobj)
