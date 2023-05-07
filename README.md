@@ -107,6 +107,7 @@ Gene based or mutation (position) based search returns a table containing the fo
 
 | Column  names                 | Description                                                  |
 | ----------------------------- | ------------------------------------------------------------ |
+| DOME Pred                     | Prediction based on the DOME Score                           |
 | Entry name                    | Entry name of protein  as per Uniprot database               |
 | Position                      | Amino acid position  in the protein                          |
 | Reference                     | Reference amino acid  in the protein                         |
