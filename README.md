@@ -57,7 +57,7 @@ The required scripts to run DOME are placed in the “script” directory.
 **In Linux terminal:**
 
 ```bash
-$ conda activate domeenv
+$ conda activate dome
 $ cd DOME-main/scripts
 $ python3 metaaccesor.py <input_csv>
 ```
