@@ -107,7 +107,7 @@ Gene based or mutation (position) based search returns a table containing the fo
 
 | Column  names                 | Description                                                  |
 | ----------------------------- | ------------------------------------------------------------ |
-| DOME Pred                     | Prediction based on the DOME Score                           |
+| DOME Pred                     | Prediction based on the DOME Score. The mutations reported as either hotspot or resistant mutations in the DOME database are flagged as "Hotpot" or "Resistant". The mutations scoring greater than 0.7 DOME Score are termed as "High confidence" and ones scored below 0.7 are flagged "Moderaterly scored".                            |
 | Entry name                    | Entry name of protein  as per Uniprot database               |
 | Position                      | Amino acid position  in the protein                          |
 | Reference                     | Reference amino acid  in the protein                         |
